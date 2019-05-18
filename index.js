@@ -91,8 +91,6 @@ const resolvers = {
       //   );
       // }
 
-      //test1
-
       return prisma.query.articles({
         first: args.first,
         skip: args.skip,
